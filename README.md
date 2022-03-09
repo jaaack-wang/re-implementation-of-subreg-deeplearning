@@ -1,2 +1,4 @@
 # re-implementation-of-subreg-deeplearning
-Re-implementations (code &amp; results) of the paper "[Subregular Complexity and Deep Learning]"(https://arxiv.org/abs/1705.05940), which disagree with the original observations. 
+Re-implementations (code &amp; results) of the paper "[Subregular Complexity and Deep Learning](https://arxiv.org/abs/1705.05940)", which disagree with the original observations. The original code, result, and implementation can be seen [here](https://github.com/enesavc/subreg_deeplearning). Please download the experimental data from the original repository before re-running my code.
+
+- Please note that, to make my code run on CPU, i.e., a normal computer with reasonable training time, I did certain tricks with the training (i.e., cut epochs, increased batch size etc.), which deviated from the original implementation. However, the final results and the data patterns should not be meaningfully different if I adoptted the settings as they were in the paper. 
